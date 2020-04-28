@@ -1,0 +1,50 @@
+*,
+html,
+body {
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #1f3144;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+#log-container>div {
+    margin-top: 15px;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    background: #000;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar>li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 0%;
+    background: purple;
+    /* display: inline; */
+}
+
+input {
+    color: #000;
+}
